@@ -1,0 +1,18 @@
+var username = "Pawan Maurya";
+username = "Manish Mishra";
+console.log(username);
+var num = 10;
+var num = 10.10;
+var isLogin = false;
+var a = undefined;
+var numArray = [10, 20, 30];
+console.log(numArray);
+var age1 = "25";
+console.log(typeof Number(age1));
+console.log(age1);
+var ispresent = false;
+console.log(ispresent);
+var studentName = "Rahul";
+var studentAge = 21;
+var details = "Student name is ".concat(studentName, " and age is ").concat(studentAge);
+console.log(details);
