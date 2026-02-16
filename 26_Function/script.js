@@ -366,3 +366,122 @@
 // let username = "Pawan";
 
 // sayHey(username,greet)
+
+
+
+// Revision :
+
+// Callback function : a function pass as a argument to other function -> callback function
+
+// function first(callback){
+//         console.log("First Function");
+//         callback();
+// }
+
+
+// function second(){
+// console.log("Second Function")
+// }
+
+
+// first(second);
+
+
+// function first(callback){
+//         console.log("First Function");
+//        let result = callback();
+//        console.log(result);
+// }
+
+
+// function second(){
+// return "This is secon function";
+// }
+
+
+// first(second);
+
+
+// clouser function
+
+// - nested function
+// - laxical scope : inner function -> work : it use outer function variable and remind previous outer function value
+// - laxical scope return by outer function
+
+
+
+// function outer(){
+//         let count = 0;
+
+//         return function inner(){
+//                 console.log(count++);
+//         }
+// }
+
+// let lexicalfun = outer();
+
+// lexicalfun();
+// lexicalfun();
+// lexicalfun();
+// lexicalfun();
+// lexicalfun();
+// lexicalfun();
+
+
+// curring function
+
+// function outer(x){
+//        return function inner(y){
+//                 console.log(x+y);
+//         }
+// }
+
+// let inner = outer(10);
+
+// inner(20);
+// inner(100);
+
+//  call(), apply(), bind() -> use in  function
+
+
+// function add(x,y){
+//         console.log(this.username);
+//         console.log(x);
+//         console.log(y);
+// }
+
+// let obj = {username:"Pawan Maurya"}
+// add.call(10,20);
+
+
+// function greet(greeting, name) {
+//     console.log(`${greeting}, ${name}!`);
+// //     console.log("This context is:", this); 
+// }
+
+// // We pass null because we don't need 'this'
+// greet.call(null, "Hello", "Pawan");
+
+// Output:
+// Hello, Pawan!
+// This context is: [Window Object]
+
+// Array & String
+
+
+// Array : 
+
+// - no size -> dynamic memory allocation -> memory management dynamic -> runtime -> memore incre or decrease
+
+// - multiple data store -> multiple datatype -> numberm boolean string bigInt
+
+// - It work on index -> starting index : 0 and end index : length-1
+
+// let arr = [12,34,true,"Pawan",34.56];
+
+// console.log(arr);
+// console.log(arr[0]);
+// console.log(arr[1]);
+
+
+// console.log(arr.length);
