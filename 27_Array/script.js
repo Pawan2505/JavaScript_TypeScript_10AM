@@ -64,3 +64,65 @@
 // map can not change original array -> immutable
 // map return new array -> it return new array with changes
 // map is alsow used to iterate array like forEach loop but it return new array with changes
+
+
+
+// let arr = [];
+
+// arr[0] = 12;
+// arr[1] = 13;
+// arr[2] = 14;
+
+// arr[1] = 111;
+// console.log(arr);
+
+//  let arr = [];
+
+//  arr.push(12);
+//  arr.push(13);
+//  arr.push(14);
+//  arr.push(15);
+//  arr.push(16);
+
+//  console.log(arr)
+ 
+//  arr.pop();
+
+//  console.log(arr)
+ 
+//  arr.unshift(10);
+//  arr.unshift(20);
+
+//  console.log(arr)
+ 
+//  arr.shift();
+
+//  console.log(arr)
+
+// // splice(index, delete_count, insert)
+// arr.splice(3,1,77,88,99);
+
+// console.log(arr)
+
+// let brr = arr.slice(2,5);
+
+// console.log(brr);
+
+
+
+// let arr = [23,45,6,78,98,35];
+
+// let data = arr.filter((item)=> item%2 == 0);
+
+// console.log(data);
+
+
+let arr = [12,3,56,23,78,213,6,78];
+
+let acc = arr.toSorted((a,b)=>a-b);
+let dec = arr.toSorted((a,b)=>b-a);
+
+console.log(acc);
+console.log(dec);
+
+console.log(arr);
