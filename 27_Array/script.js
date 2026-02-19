@@ -117,12 +117,47 @@
 // console.log(data);
 
 
-let arr = [12,3,56,23,78,213,6,78];
+// let arr = [12,3,56,23,78,213,6,78];
 
-let acc = arr.toSorted((a,b)=>a-b);
-let dec = arr.toSorted((a,b)=>b-a);
+// let acc = arr.toSorted((a,b)=>a-b);
+// let dec = arr.toSorted((a,b)=>b-a);
 
-console.log(acc);
-console.log(dec);
+// console.log(acc);
+// console.log(dec);
 
-console.log(arr);
+// console.log(arr);
+
+
+// let arr = [12,34,44,88,34];
+
+// includes() -> it is used to check whether the given value is present in the array or not. It return true if value is present otherwise it return false.
+
+// console.log(arr.includes(2));
+
+// every() -> it is used to check whether all the elements in the array satisfy the given condition or not. It return true if all the elements satisfy the condition otherwise it return false.
+
+// let result = arr.every((item)=>item%2 == 0);
+
+// console.log(result);
+
+// some() -> it is used to check whether at least one element in the array satisfy the given condition or not. It return true if at least one element satisfy the condition otherwise it return false.
+// let result = arr.some((item)=>item%2 !== 0);
+
+// console.log(result);
+
+
+// indexof, findindex
+
+
+
+// let arr = [12,25,35,445,67,8,67,34,56];
+
+// indexOf() -> it is used to find the index of the first occurrence of the given value in the array. It return the index if value is present otherwise it return -1.
+
+// console.log(arr.indexOf(67));
+
+// findIndex() -> it is used to find the index of the first element in the array that satisfy the given condition. It return the index if element is present otherwise it return -1.
+
+// let result = arr.findIndex((item)=> item>500);
+
+// console.log(result);
