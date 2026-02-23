@@ -161,3 +161,94 @@
 // let result = arr.findIndex((item)=> item>500);
 
 // console.log(result);
+
+
+// String : 
+
+// 1. It is collection of character or text.
+// 2. we can also say string is array.
+// 3. we can also work on index on string (we can itreate on string).
+// 4. string also have so name built-in method like array
+
+// Note : String is mutable or immutable ?
+
+//  Ans : string is immutable (we can not change original string).
+
+// String Literal : 
+
+// 1. using single quote : ''
+// 2. using double quote : ""
+// 3. template literal (backtick) : ``
+
+
+// let username = 'Pawan Maurya';
+// console.log(username);
+
+// const username = "Pawan Maurya";
+// console.log(username);
+
+// let username = `Pawan Maurya`;
+// console.log(username);
+
+// let username = 'Pawan Maurya';
+
+// console.log("Hey",username);
+
+// let username = "Pawan Maurya";
+// let age = 25;
+// console.log("Hey",username + " Your age is" +age);
+
+// console.log(`Hey, ${username}. Your age is ${age}`);
+
+
+// let username = "Pawan Maurya";
+
+// console.log(username[0]);
+// console.log(username[1]);
+// console.log(username[2]);
+// console.log(username[3]);
+// console.log(username[4]);
+
+// username[0]= "Q"; // we can not change in original string
+
+// console.log(username);
+
+// let newStr = username.replace("P","Q");
+// console.log(newStr);
+
+
+// let username = "Pawan Maurya";
+
+// for(let i = 0; i < username.length; i++){
+//     console.log(username[i]);
+// }
+
+
+// Method 1 : length
+
+// let username = "Pawan Maurya";
+
+// let result = '';
+// for(let i = 0; i < username.length; i++){
+//     result +=username[i++];
+// }
+
+// console.log(result)
+
+// Method : toUppercase()
+
+// let username = 'Pawan Maurya';
+
+// let newStr = username.toUpperCase();
+
+// console.log(newStr);
+// console.log(username);
+
+// Method : toLowercase()
+
+let username = 'Pawan Maurya';
+
+let newStr = username.toLowerCase();
+
+console.log(newStr);
+console.log(username);
